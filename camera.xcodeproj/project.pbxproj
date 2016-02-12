@@ -14,6 +14,8 @@
 		4D351B6F1C6D8D1B003FD867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D351B6D1C6D8D1B003FD867 /* LaunchScreen.storyboard */; };
 		4D351B7A1C6D8D1B003FD867 /* cameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D351B791C6D8D1B003FD867 /* cameraTests.swift */; };
 		4D351B851C6D8D1B003FD867 /* cameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D351B841C6D8D1B003FD867 /* cameraUITests.swift */; };
+		4D351B931C6D8ED6003FD867 /* IMG_3693.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4D351B921C6D8ED6003FD867 /* IMG_3693.JPG */; };
+		4D351B951C6DBB64003FD867 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D351B941C6DBB64003FD867 /* heart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4D351B801C6D8D1B003FD867 /* cameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D351B841C6D8D1B003FD867 /* cameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraUITests.swift; sourceTree = "<group>"; };
 		4D351B861C6D8D1B003FD867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D351B921C6D8ED6003FD867 /* IMG_3693.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3693.JPG; sourceTree = "<group>"; };
+		4D351B941C6DBB64003FD867 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		4D351B631C6D8D1B003FD867 /* camera */ = {
 			isa = PBXGroup;
 			children = (
+				4D351B941C6DBB64003FD867 /* heart.png */,
+				4D351B921C6D8ED6003FD867 /* IMG_3693.JPG */,
 				4D351B641C6D8D1B003FD867 /* AppDelegate.swift */,
 				4D351B661C6D8D1B003FD867 /* ViewController.swift */,
 				4D351B681C6D8D1B003FD867 /* Main.storyboard */,
@@ -229,7 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D351B931C6D8ED6003FD867 /* IMG_3693.JPG in Resources */,
 				4D351B6F1C6D8D1B003FD867 /* LaunchScreen.storyboard in Resources */,
+				4D351B951C6DBB64003FD867 /* heart.png in Resources */,
 				4D351B6C1C6D8D1B003FD867 /* Assets.xcassets in Resources */,
 				4D351B6A1C6D8D1B003FD867 /* Main.storyboard in Resources */,
 			);
@@ -398,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = camera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.camera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = camera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.camera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
